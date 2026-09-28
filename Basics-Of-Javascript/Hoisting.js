@@ -8,6 +8,7 @@ function greet (){
 }
 
 console.log(a); // it will say first define the value because hoisting not implement on let 
+//same for the const
 let a = 9;
 
 
