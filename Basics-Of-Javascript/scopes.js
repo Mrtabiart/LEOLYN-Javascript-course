@@ -1,7 +1,8 @@
 //scopes.js in javascript local(function) global block scopes functional
 
-{
-    let a = 9 ; // if we are using the let then it is compulsory to use it in the block level scope
+{  //let and const both are bloked scoped not access out side the block
+    let a = 9 ; // if we are using the let then it is compulsory to use it in 
+    // the block level scope
     console.log(a); // and we can access it the same bllock rather than outside of it 
 }
 console.log(a); // it will through a error 
@@ -15,7 +16,8 @@ console.log(a); // it will through a error
 
 
 console.log(a);
-
+// like let is not access out side the block scope the var is not access outside
+//  the functional scope 
 function ax(){
     var a =10;
     console.log(a); // the var is access into the same functional block scope only 
